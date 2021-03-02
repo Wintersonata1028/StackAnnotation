@@ -43,7 +43,7 @@ public class MyStringStackTest extends TestCase {
 	@Test
 	public void testPop() {
 		String o1 = null;
-
+        MyStringStack stack = new MyStringStack();
         assertTrue ("Initial Stack state", stack.isEmpty());
         try {
             o1 = stack.pop ();
